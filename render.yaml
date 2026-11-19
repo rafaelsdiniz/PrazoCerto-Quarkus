@@ -2,7 +2,7 @@
 # Os valores marcados com sync: false são pedidos no painel (não ficam no git).
 services:
   - type: web
-    name: gerenciador-diniz-api
+    name: prazo-certo-api
     runtime: docker
     plan: free
     region: oregon
@@ -15,7 +15,7 @@ services:
       - key: DB_PASSWORD
         sync: false
       - key: CORS_ORIGINS
-        sync: false        # ex.: https://gerenciador-diniz.vercel.app
+        sync: false        # ex.: https://prazo-certo-to.vercel.app
       - key: DB_GENERATION
         value: drop-and-create   # 1ª publicação: cria tabelas + dados de demonstração. Depois troque para: update
       - key: DEC_DEMO

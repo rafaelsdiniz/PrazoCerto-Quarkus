@@ -32,7 +32,7 @@ import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
 /**
- * Traz para o Gerenciador tudo o que chegou no DEC (Domicílio Eletrônico do
+ * Traz para o Prazo Certo tudo o que chegou no DEC (Domicílio Eletrônico do
  * Contribuinte / SEFAZ-TO), lendo a API de integração do DEC Monitor.
  *
  * Somente leitura: nada é enviado ao DEC. A cada sincronização a janela inteira

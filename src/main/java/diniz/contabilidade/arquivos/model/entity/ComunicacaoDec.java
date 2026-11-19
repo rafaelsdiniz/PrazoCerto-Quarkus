@@ -14,7 +14,7 @@ import jakarta.persistence.Table;
  * do Contribuinte (SEFAZ-TO), sincronizada a partir do DEC Monitor.
  *
  * O DEC é a fonte da verdade: aqui só se exibe. A empresa é ligada pelo CNPJ;
- * comunicações de CNPJ que não existe no Gerenciador ficam com empresa nula e
+ * comunicações de CNPJ que não existe no Prazo Certo ficam com empresa nula e
  * aparecem só para o escritório.
  */
 @Entity

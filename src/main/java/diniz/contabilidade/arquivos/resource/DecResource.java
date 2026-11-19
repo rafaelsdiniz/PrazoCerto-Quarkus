@@ -19,7 +19,7 @@ import jakarta.ws.rs.core.Response;
 /**
  * Comunicações do DEC (SEFAZ-TO) sincronizadas do DEC Monitor. Somente leitura.
  * Funcionário de cliente vê só as da própria empresa; o escritório vê todas,
- * inclusive as de CNPJ ainda não cadastrado no Gerenciador.
+ * inclusive as de CNPJ ainda não cadastrado no Prazo Certo.
  */
 @Path("/dec")
 @Produces(MediaType.APPLICATION_JSON)

@@ -174,7 +174,7 @@ public final class GeradorExemplos {
         c.addRect(M, y - 22, W - 2 * M, 22);
         c.fill();
         c.setNonStrokingColor(0.45f, 0.30f, 0.05f);
-        texto(c, negrito, 9, M + 10, y - 15, "EXEMPLO FICTÍCIO — gerado pelo Gerenciador Diniz para demonstrar a leitura inteligente. NÃO PAGAR.");
+        texto(c, negrito, 9, M + 10, y - 15, "EXEMPLO FICTÍCIO — gerado pelo Prazo Certo para demonstrar a leitura inteligente. NÃO PAGAR.");
         c.setNonStrokingColor(0f, 0f, 0f);
     }
 
